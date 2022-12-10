@@ -10,17 +10,19 @@ class CustomTextField extends StatelessWidget {
       controller: controller,
       decoration: InputDecoration(
         hintText: hintText,
-        border: OutlineInputBorder(
+        border:const OutlineInputBorder(
           borderSide: BorderSide(
             color: Colors.black38)
             ),
 
-        enabledBorder: OutlineInputBorder(
+        enabledBorder: const OutlineInputBorder(
           borderSide: BorderSide(
             color: Colors.black38)
             )    
       ),
       validator: ((value) {
+        return null;
+      
         
       }),
     );

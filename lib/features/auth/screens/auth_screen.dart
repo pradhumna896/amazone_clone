@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:shopapp/common/widgets/custom_button.dart';
 import 'package:shopapp/common/widgets/custom_textfield.dart';
 import 'package:shopapp/constants/global_variable.dart';
