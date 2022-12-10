@@ -22,8 +22,6 @@ class CustomTextField extends StatelessWidget {
       ),
       validator: ((value) {
         return null;
-      
-        
       }),
     );
   }
