@@ -33,11 +33,14 @@ class _AuthScreenState extends State<AuthScreen> {
       body: SafeArea(child: Padding(
         padding: const EdgeInsets.all(8.0),
         child: SingleChildScrollView(
-          child: Column(children: [
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
             const Text("Welcome",style: TextStyle(
               fontSize: 22,
               fontWeight: FontWeight.w500
             ),),
+            const SizedBox(height: 10,),
             ListTile(
               tileColor: _auth==Auth.signup?GlobalVariable.backgroundColor:GlobalVariable.greyBackgroundCOlor,
               title: const Text("Create Account",
